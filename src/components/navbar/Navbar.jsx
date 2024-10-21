@@ -13,11 +13,14 @@ const links = [
 const Navbar = () => {
   return (
     <div>
-      {links.map(link => (
-        <Link key={link.id} href={link.url}>
-          {link.title}
-        </Link>
-      ))}
+      <Link href="/">abdisa</Link>
+      <div>
+        {links.map(link => (
+          <Link key={link.id} href={link.url}>
+            {link.title}
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };
