@@ -1,7 +1,14 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { Inter, Roboto, Poppins} from "next/font/google";
 import Navbar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

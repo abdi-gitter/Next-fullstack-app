@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Footer = () => {
-  return (
+
+   return (
     <div>
         <div>©abdisa 2024 Survival, Inc.
         </div>
