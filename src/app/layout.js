@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter, Roboto, Poppins} from "next/font/google";
 import Navbar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
+import { ThemeProvider } from "../context/ThemeContext";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,11 +32,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
        
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <div className="container">
-         <Navbar/>
-        {children}
-          <Footer/>
-        </div>
+        <ThemeProvider>
+          <div className="container">
+          <Navbar/>
+          {children}
+            <Footer/>
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

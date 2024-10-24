@@ -1,0 +1,65 @@
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Center the content */
+  }
+  
+  .top {
+    display: flex;
+    gap: 20px; /* Space between image and info */
+  }
+  
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .title {
+    font-size: 40px; /* Large title */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .desc {
+    font-size: 18px; /* Medium description */
+    font-weight: 300; /* Light weight */
+    margin-bottom: 20px; /* Space below description */
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between avatar and username */
+    margin-top: 10px; /* Space above author section */
+  }
+  
+  .avatar {
+    object-fit: cover;
+    border-radius: 50%; /* Circle avatar */
+    width: 50px; /* Set width for avatar */
+    height: 50px; /* Set height for avatar */
+  }
+  
+  .imageContainer {
+    flex: 1;
+    height: 300px; /* Fixed height for image */
+    position: relative; /* Positioning for Image */
+  }
+  
+  .image {
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+  }
+  
+  .content {
+    margin-top: 50px; /* Space above content */
+    font-size: 20px; /* Regular font size */
+    font-weight: 300; /* Light weight */
+    color: #999; /* Light grey color */
+    text-align: justify; /* Justified text */
+    line-height: 1.6; /* Line height for readability */
+  }
+  
