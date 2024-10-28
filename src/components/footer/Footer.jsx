@@ -5,8 +5,7 @@ const Footer = () => {
 
    return (
     <div className={styles.container}>
-        <div>©2024 survival101@Tenthman, All Rights Reserved.
-        </div>
+        <div>©2024 survival101@Tenthman, All Rights Reserved.</div>
         <div>
           <div className={styles.social}>
             <Image src="/1.png"  width={15} height={15} className={styles.icon} alt="Survival 101"/>

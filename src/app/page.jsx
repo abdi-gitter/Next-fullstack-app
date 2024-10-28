@@ -14,11 +14,11 @@ export default function Home() {
         Did you know that survival is not easy?
         </p>
         <Button url="/portfolio" text="Get Started"/>
-        
       </div>
-    <div className={styles.item}>  
-      <Image src={Hero} alt="Survival 101" className={styles.img} />
-    </div>
+
+      <div className={styles.item}>  
+        <Image src={Hero} alt="Survival 101" className={styles.img} />
+      </div>
     </div>
   );
 }
